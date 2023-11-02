@@ -1,0 +1,219 @@
+@font-face {font-family: "Indigo";src: url("../fonts/Indigo.otf")}
+@font-face {font-family: "Baksoda";src: url("../fonts/Baksoda.ttf")}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font: lighter 25px 'Segoe UI', Arial, sans-serif;
+    color: #1E1E1E;
+}
+
+.red {
+    color: #FF5873;
+}
+
+.default {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 60px;
+}
+
+h1, h2, h3 {
+    font-weight: lighter;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12.5px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #FF5873;
+    border-radius: 0px;
+    transition: all .3s;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, .2);
+}
+
+.btn:hover {
+    background: #E33E55;
+    color: #FFFFFF;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, .2);
+}
+
+.content h1 {
+    font-family: "Indigo";
+    width: 600px;
+    color: #1E1E1E;
+    font-size: 55px;
+}
+
+.content p {
+    font-family: "Segoe UI Light";
+    color: #1E1E1E;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.right {float: right}
+.left {float: left}
+
+/*************************** 
+    HEADER, TOP NAVIGATION
+***************************/
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    padding: 0 4%;
+    z-index: 2;
+}
+
+.header .logo {float: left}
+
+.header .logo h2 {
+    font-family: "Indigo";
+    font-weight: bolder;
+    font-size: 35px;
+    color: #1E1E1E;
+}
+
+.header .menu {text-align: center}
+
+.header .menu a {
+    color: #1E1E1E;
+    margin: 0 25px;
+    font-size: 17px;
+    border-bottom: 1.8px solid transparent;
+    transition: all .1s;
+    padding-bottom: 5px;
+}
+
+.header .menu .active,
+.header .menu a:hover {
+    border-bottom: 1.8px solid #1E1E1E;
+}
+
+/*************************** 
+    HERO SECTION
+***************************/
+
+.hero {
+    height: 100vh;
+    padding-top: calc((100vh - 270px) / 2);
+    background: url(../img/blue.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FBFBFB;
+}
+
+.hero .content {
+    float: left;
+    padding-left: 4%;
+}
+
+/*************************** 
+    RIGHT NAVIGATION
+***************************/
+
+.right-nav {
+    width: 7%;
+    height: 100%;
+    top: 0;
+    background-color: #1E1E1E;
+    right: 0;
+    line-height: 100px;
+    z-index: 3;
+    position: fixed;
+    text-align: center;
+    padding-top: calc((100vh - 380px) / 2);
+    overflow: hidden;
+    overflow-y: auto;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, .2);
+}
+
+.right-nav .links  a {
+    font-size: 17px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    color: #FFF;
+    width: 90px;
+}
+
+.right-nav .icon {
+    position: absolute;
+    top: 30px;
+    color: #FFF;
+    font-size: 27px;
+    margin-left: -10px;
+}
+
+.down a {
+    color: #1E1E1E;
+    font-size: 80px;
+    position: absolute;
+    bottom: 22px;
+    right: calc((100vw - 80px) / 2);
+    animation-duration: 3s;
+}
+
+/*************************** 
+    SECTIONS
+***************************/
+
+.section {
+    padding: 50px 10% 0px 0%;
+}
+
+.section img {
+    margin-left: 40px;
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, .1);
+}
+
+.section .content {
+    width: 46.5%;
+    margin-top: 15%;
+    padding-left: 4%;
+}
+
+.sign-bg {
+    height: 100vh;
+    margin-top: -190px;
+    background: url(../img/hi.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: #FBFBFB;
+}
+
+.sign {
+    width: 50%;
+    padding: 20px;
+    margin: 25vw auto;
+    border-radius: 20px;
+    right: calc((100vw - 0px) / 2);
+}
+
+.sign input {
+    border: 0;
+    border-bottom: 2px solid #D5DAF5;
+    line-height: 45px;
+    font-size: 17px;
+    padding: 10px;
+    width: 50%;
+    font-family: "Segoe UI Light";
+}

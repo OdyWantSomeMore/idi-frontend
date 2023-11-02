@@ -1,0 +1,100 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: Untitled-1.ai
+Color Mode: CMYK color
+Color Profile: Japan Color 2002 Newspaper
+Ruler Units: points
+Artboard Dimensions: 595,276 pt x 841,89 pt
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Myriad Pro (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+C:\Users\asus\Downloads\452-4d93fcebfe7b25c35c8c429887963f95.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 602K, 700 by 294 pixels
+Dimensions: 349,771 by 146,904 points 
+Resolution: 144,094 by 144,094 pixels per inch
+
+
+C:\Users\asus\Downloads\741-1b9170d1f8fa499b14abda0ec841edbb.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 525K, 650 by 276 pixels
+Dimensions: 349,771 by 148,518 points 
+Resolution: 133,802 by 133,802 pixels per inch
+
+
+C:\Users\asus\Downloads\741-1b9170d1f8fa499b14abda0ec841edbb.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 525K, 650 by 276 pixels
+Dimensions: 349,771 by 148,518 points 
+Resolution: 133,802 by 133,802 pixels per inch
+
+
+C:\Users\asus\Downloads\452-4d93fcebfe7b25c35c8c429887963f95.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 602K, 700 by 294 pixels
+Dimensions: 349,771 by 146,904 points 
+Resolution: 144,094 by 144,094 pixels per inch
+
+
+C:\Users\asus\Downloads\452-4d93fcebfe7b25c35c8c429887963f95.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 602K, 700 by 294 pixels
+Dimensions: 349,771 by 146,904 points 
+Resolution: 144,094 by 144,094 pixels per inch
+
+
+C:\Users\asus\Downloads\741-1b9170d1f8fa499b14abda0ec841edbb.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 525K, 650 by 276 pixels
+Dimensions: 148,518 by 349,771 points 
+Resolution: 315,113 by 56,814 pixels per inch
+
+
+C:\Users\asus\Downloads\452-4d93fcebfe7b25c35c8c429887963f95.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 602K, 700 by 294 pixels
+Dimensions: 146,904 by 349,771 points 
+Resolution: 343,081 by 60,52 pixels per inch

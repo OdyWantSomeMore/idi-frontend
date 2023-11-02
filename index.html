@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Flemy | Home</title>
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script>
+        $('body').niceScroll({
+            mousescrollstep: 10,
+            cursorcolor: "#F2F3F5",
+            cursorwidth: "7px",
+            cursorborderradius: "0px",
+            cursorborder: "none",
+            zindex: 10000,
+            cursoropacitymin: 1,
+            horizrailenabled: false,
+            usetransition: true
+        });
+        jQuery(document).ready(function(){
+   $('h1').mousemove(function(e){
+     var rXP = (e.pageX - this.offsetLeft-$(this).width()/2);
+     var rYP = (e.pageY - this.offsetTop-$(this).height()/2);
+     $('h1').css('text-shadow', +rYP/10+'px '+rXP/80+'px rgba(227,6,19,.8), '+rYP/8+'px '+rXP/60+'px rgba(255,237,0,1), '+rXP/70+'px '+rYP/12+'px rgba(0,159,227,.7)');
+     usetransition: true
+   });
+});
+    </script>
+    <div class="header">
+        <div class="logo animated pulse infinite">
+            <h2>F<span class="default red">.</span></h2>
+        </div>
+        <div class="menu animated flash">
+            <a href="" class="active">Home</a>
+            <a href="">About</a>
+            <a href="">All Products</a>
+            <a href="">Blog</a>
+            <a href="">Contact Us</a>
+        </div>
+    </div>
+    <div class="right-nav">
+        <a href="" class="icon pe-7s-bell"></a>
+        <div class="links">
+            <a href="">Dribbble</a>
+            <a href="">Github</a>
+            <a href="">Behance</a>
+            <a href="">Email</a>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="content">   
+            <h1 class="animated slideInUp">INTERI<span class="red">O</span>R DESIGN <br> IDEAS<span class="red">.</span></h1>
+            <p class="animated slideInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolore exercitationem pariatur a nesciunt aliquid numquam<br> laboriosam sint atque ut eaque.</p>
+            <a href="" class="btn animated slideInUp">Explore Now</a>
+        </div>
+        
+    </div>
+    <div class="section section-1">
+        <img class="left" src="img/col.jpg">
+        <div class="content right">
+            <h1><span class="red">O</span>UR<br>CO<span class="red">LL</span>EC<span class="red">T</span>IONS<span class="red">.</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolore exercitationem pariatur a nesciunt aliquid eaquen umquam<br> laboriosam sint atque ut. Dolore exercitationem pariatur a nesciunt aliquid numquam laboriosam sint.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="section section-2">
+        <img class="right" src="img/room1.jpg">
+        <div class="content left">
+            <h1>LI<span class="red">V</span>ING ROOM<span class="red">.</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolore exercitationem pariatur a nesciunt aliquid eaquen umquam<br> laboriosam sint atque ut. Dolore exercitationem pariatur a nesciunt aliquid numquam laboriosam sint.</p>
+            <a href="" class="btn">See More</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="section section-3">
+        <img class="left" src="img/room2.jpg">
+        <div class="content right">
+            <h1>B<span class="red">E</span>D ROOM<span class="red">.</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolore exercitationem pariatur a nesciunt aliquid eaquen umquam<br> laboriosam sint atque ut. Dolore exercitationem pariatur a nesciunt aliquid numquam laboriosam sint.</p>
+            <a href="" class="btn">See More</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="section section-4">
+        <img class="right" src="img/room3.jpg">
+        <div class="content left">
+            <h1><span class="red">P</span>ERSONAL ROOM<span class="red">.</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolore exercitationem pariatur a nesciunt aliquid eaquen umquam<br> laboriosam sint atque ut. Dolore exercitationem pariatur a nesciunt aliquid numquam laboriosam sint.</p>
+            <a href="" class="btn">See More</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="sign-bg">
+        <div class="sign">
+            <input type="email" placeholder="Email..">
+            <input type="password" placeholder="Password..">
+            <a href="" class="btn">Login</a>
+        </div>    
+    </div>
+</body>
+</html>
